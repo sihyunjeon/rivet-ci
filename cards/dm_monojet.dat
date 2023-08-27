@@ -1,0 +1,12 @@
+import model DMsimp_s_spin1
+generate p p > xd xd~ j
+output Monojet_test
+launch
+shower=PYTHIA8
+0
+set no_parton_cut
+set nevents 3000
+set ptj 100
+set mxd 20
+set my1 1000
+set mpi off

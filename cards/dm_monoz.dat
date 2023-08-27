@@ -1,0 +1,13 @@
+import model DMsimp_s_spin1
+define ll = e+ mu+ ta+ e- mu- ta-
+generate p p > xd xd~ z, z > ll ll
+output MonoZ_test
+launch
+shower=PYTHIA8
+0
+set no_parton_cut
+set nevents 3000
+set ptllmin 400
+set mxd 20
+set my1 1000
+set mpi off

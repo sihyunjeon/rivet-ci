@@ -1,0 +1,11 @@
+import model loop_sm-no_b_mass
+define ll = e+ mu+ ta+ e- mu- ta-
+define vv = ve vm vt ve~ vm~ vt~
+generate p p > ll vv
+output W_test
+launch
+shower=PYTHIA8
+0
+set no_parton_cut
+set nevents 3000
+set mpi off
